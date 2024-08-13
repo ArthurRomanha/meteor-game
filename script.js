@@ -26,7 +26,7 @@ const drawShoot = () => {
     if (shootExist == true) {
         ctx.fillStyle = "white";
         shoot = ctx.fillRect(xShoot, yShoot, 5, 15);
-        yShoot -= 15;
+        yShoot -= 30;
     } else {
         yShoot = yShip;
         shootExist = true;
